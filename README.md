@@ -14,7 +14,7 @@ Durable Objects hold the rooms.
   puzzles and log, synced over a WebSocket. The first two players to sit down play Light
   and Dark orange and everyone else watches. With one seat empty, the seated player plays
   both sides or lets the AI reply.
-* **Opponents.** A ResNet3D + MCTS agent (500 simulations, ONNX Runtime Web on WebGPU or
+* **Opponents.** A ResNet3D + MCTS agent (100 simulations, ONNX Runtime Web on WebGPU or
   WebAssembly) and the C++ minimax engine from
   [3d-connect-four-engine](https://github.com/Howard5241/3d-connect-four-engine) compiled
   to WebAssembly (Strong V5, 3 s per move).

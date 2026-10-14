@@ -1,7 +1,7 @@
 // A port of ai_agent.py's MCTS for the ResNet opponent. Boards are Int8Array(64)
 // indexed [depth * 16 + row * 4 + col], depth 0 at the top, 1 / -1 for the players.
 
-export const MCTS_ARGS = { C: 2.0, simulations: 500 };
+export const MCTS_ARGS = { C: 2.0, simulations: 100 };
 
 const SIZE = 4;
 const CELLS = 64;
